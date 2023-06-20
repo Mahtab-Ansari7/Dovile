@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header styling */
+    #home {
+        flex-direction: column;
+        height: auto;
+        width: 1020px;
+        margin: auto auto;
+        background-color: #f8ebedbf;
+    }
+    h3 {
+        font-size: 115px;
+        margin: 41px 70px;
+        width: auto;
+    }
+    .btc{
+        font-size: 44px;
+    }
+.about p {
+    margin-left: -45px;
+    font-size: 46px;
+}
+.profile img {
+    margin: 99px;
+    margin-bottom: 24px;
+}
+button {
+    padding: 51px 58px;
+    margin: 26px 43px;
+}
+
+.profile img {
+    margin: 65px;
+    margin-bottom: 24px;
+}
+.profile img {
+    height: 902px;
+    width: 824px;
+}
+/* featured styling */
+
+#featured {
+    flex-direction: column;
+    width: 1020px;
+    top: 238px;
+}
+
+#f-1 {
+    font-size: 80px;
+    margin-left: 30px;
+    line-height: 100px;
+}
+
+#f-2 {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 100px;
+}
+
+#f-3 {
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 100px;
+}
+
+#f-4 {
+    font-size: 80px;
+    font-weight: bolder;
+    line-height: 100px;
+}
+/* intro styling */
+#intro {
+    width: 1020px;
+    display: flex;
+    flex-direction: column;
+    top: 409px;
+    height: 1064px;
+}
+.p1{
+    font-size: 96px;
+    line-height: 50px;
+}
+.p2 {
+    font-size: 45px;
+    line-height: 58px;
+}
+
+/* services styling */
+#services {
+    top: 490px;
+    width: 1020px;
+    height: auto;
+    flex-direction: column-reverse;
+}
+#services img {
+    margin-left: 127px;
+}
+
+.about_services h2 {
+    font-size: 121px;
+    text-align: left;
+    margin: 48px 120px;
+}
+.about_services p {
+    font-size: 42px;
+    line-height: 60px;
+}
+.btr{
+    font-size: 40px;
+}
+#services img {
+    height: 895px;
+    width: 829px;
+
+}
+/* styling of ready */
+#ready{
+    width: 1020px;
+    height: 1588px;
+    top: 337px;
+}
+#ready-1{
+    flex-direction: column;
+    height: 557px;
+    margin: 117px 72px;
+}
+#ready-2{
+    flex-direction: column;
+    height: 591px;
+    margin: -169px 70px;
+}
+.item-1 {
+    margin-top: 157px;
+    padding: 1px 4px;
+}
+.item-2 {
+    width: 844px;
+    height: 226px;
+    margin: 43px 48px;
+    padding: 10px 14px;
+}
+.item-3 {
+    width: 844px;
+    height: 32px;
+    margin: 94px 44px;
+    padding: 21px 14px;
+}
+.item-1 p {
+    font-size: 113px;
+    font-weight: bold;
+}
+.item-2 p {
+    font-size: 28px;
+    line-height: 40px;
+}
+.item-3 p {
+    font-size: 28px;
+    line-height: 40px;
+}
+#ready h4 {
+    font-size: 45px;
+}
+/* blog styling */
+#blog{
+    top: 500px;
+    flex-direction: column;
+}
+.my_blog h2 {
+    font-size: 113px;
+    margin: 343px 31px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+}
+.my_blog p {
+    font-size: 38px;
+    margin: 1px 46px;
+    width: 800px;
+    line-height: 72px;
+}
+.my_blog .btn {
+    font-size: 45px;
+    margin: 36px 49px;
+    padding: 34px 31px;
+}
+#blog img {
+    height: 676px;
+    width: 833px;
+    margin-left: 52px;
+}
+/* styling about me */
+#aboutme{
+    top: 1229px;
+    flex-direction: column;
+    height: auto;
+    width: 1020px;
+}
+
+/* styling pictures */
+#pictures{
+    top: 1392px;
+    width: 1020px;
+}
+.my_profile {
+    height: 345px;
+}
+.my_profile img {
+    height: 433px;
+    width: 474px;
+    margin: 25px 162px;
+}
+.introduction h6 {
+    font-size: 39px;
+    margin: 1px 180px;
+    padding: 3px 4px;
+}
+.introduction .p2 {
+    font-size: 29px;
+    line-height: 28px;
+    margin: 21px 160px;
+}
+#pictures img {
+    padding: 3px;
+    width: 224px;
+    height: 323px;
+}
+.introduction .p1 {
+    font-size: 39px;
+    line-height: 51px;
+    margin: 194px 159px;
+    margin-bottom: 23px;
+    padding: 22px 14px;
+}
+/* styling footer */
+footer{
+    top: 722px;
+    height: 180px;
+    width: 1020px;
+   
+}
+.tc{
+    width: 1020px;
+    position: relative;
+    top: 689px;
+    font-size: 30px;
+}
